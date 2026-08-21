@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Name | Junction Readout + Chip Design</title>
+    <meta
+      name="description"
+      content="Research page on junction readout, microwave resonator design, Qiskit Metal tooling, and chip layout workflows."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="index.html">Your Name</a>
+        <div class="nav-links">
+          <a href="index.html">Intro</a>
+          <a href="mtjj.html">MTJJ</a>
+          <a href="junction-readout-chip-design.html" aria-current="page">Junction Readout + Chip Design</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <p class="eyebrow">Microwave engineering and device layout</p>
+        <h1 id="page-title">Junction readout and chip design for superconducting quantum devices.</h1>
+        <p class="lead">
+          This page collects the hardware-facing side of the research: microwave resonator design,
+          Qiskit Metal automation, GDS layout generation, and chip-design experiments aimed at connecting
+          junction physics to practical readout structures.
+        </p>
+      </section>
+
+      <section class="content-section" aria-labelledby="readout-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <h2 id="readout-title">Readout Direction</h2>
+            <p>
+              The project folders include low-impedance resonator notebooks, junction-readout GDS files,
+              and reusable Python helpers for geometry and component generation.
+            </p>
+          </div>
+
+          <div class="grid three">
+            <article class="card">
+              <span class="tag">Resonators</span>
+              <h3>Microwave resonator design</h3>
+              <p>
+                Design notebooks explore lumped and low-impedance resonators, with an eye toward impedance,
+                coupling, footprint, and fabrication-ready layout.
+              </p>
+            </article>
+            <article class="card">
+              <span class="tag green">Qiskit Metal</span>
+              <h3>Reusable design tooling</h3>
+              <p>
+                The MicrowaveDesign package provides editable helpers for Qiskit Metal geometry, components,
+                and project setup so layout iterations can be scripted instead of redrawn manually.
+              </p>
+            </article>
+            <article class="card">
+              <span class="tag red">GDS</span>
+              <h3>Chip layout workflows</h3>
+              <p>
+                GDS outputs track design iterations for resonators, dicing markers, chip layouts, and
+                junction-oriented readout structures.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" aria-labelledby="chip-design-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <h2 id="chip-design-title">Chip Design Themes</h2>
+            <p>
+              This section is written to be easy to revise once you decide what can be public.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="date">Design</div>
+              <div>
+                <h3>Parameterized microwave components</h3>
+                <p>
+                  Build components as reusable, parameterized objects so resonator geometry, coupling, and
+                  chip placement can be swept systematically.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <div class="date">Layout</div>
+              <div>
+                <h3>GDS-ready fabrication artifacts</h3>
+                <p>
+                  Convert notebook-driven design ideas into concrete layout files suitable for inspection,
+                  sharing, and fabrication planning.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <div class="date">Readout</div>
+              <div>
+                <h3>Bridge circuit design and junction physics</h3>
+                <p>
+                  Develop readout structures that can eventually connect measured microwave response to
+                  junction-state dynamics and device-level observables.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" aria-labelledby="public-artifacts-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <h2 id="public-artifacts-title">Public Artifacts To Add</h2>
+            <p>
+              Drop in screenshots, layout renders, resonator simulations, or simplified diagrams when you
+              are ready to make this page more visual.
+            </p>
+          </div>
+
+          <div class="grid two">
+            <article class="note">
+              <h3>Suggested figure slots</h3>
+              <ul>
+                <li>Resonator layout render</li>
+                <li>Chip-level GDS screenshot</li>
+                <li>Simulated S-parameter or mode profile</li>
+                <li>Junction readout schematic</li>
+              </ul>
+            </article>
+            <article class="note">
+              <h3>Suggested links</h3>
+              <ul>
+                <li>MicrowaveDesign repository</li>
+                <li>Selected design notebooks</li>
+                <li>Fabrication notes or process assumptions</li>
+                <li>Talks, posters, or internal design summaries</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Junction readout and chip design summary. Add public figures and repository links before publishing.
+    </footer>
+  </body>
+</html>

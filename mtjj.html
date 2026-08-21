@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Name | MTJJ</title>
+    <meta
+      name="description"
+      content="Research page on multiterminal Josephson junction topology, Andreev bound states, Wilson loops, and tomography."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="index.html">Your Name</a>
+        <div class="nav-links">
+          <a href="index.html">Intro</a>
+          <a href="mtjj.html" aria-current="page">MTJJ</a>
+          <a href="junction-readout-chip-design.html">Junction Readout + Chip Design</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-grid">
+          <div>
+            <p class="eyebrow">Andreev bound states and topology</p>
+            <h1 id="page-title">Multiterminal Josephson junctions as tunable topological systems.</h1>
+            <p class="lead">
+              This work studies phase-controlled Andreev bound-state spectra in multiterminal superconducting
+              junctions, with an emphasis on Wilson-loop observables, Euler curvature, nodal structures,
+              and experimentally motivated tomography protocols.
+            </p>
+          </div>
+          <figure class="feature-figure">
+            <img src="assets/euler-curvature-reference.png" alt="Euler curvature reference map from Andreev bound-state simulation">
+            <figcaption class="caption">
+              Euler curvature reference map from the ABS tomography workflow.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="content-section" aria-labelledby="questions-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <h2 id="questions-title">Core Questions</h2>
+            <p>
+              The MTJJ folder contains scripts and reports that move between model Hamiltonians,
+              numerical invariants, transport calculations, and measurement simulations.
+            </p>
+          </div>
+
+          <div class="grid three">
+            <article class="card">
+              <span class="tag">Topology</span>
+              <h3>What topology appears in ABS phase space?</h3>
+              <p>
+                Wilson-loop spectra, Stiefel-Whitney/Euler diagnostics, Chern calculations, and nodal-line
+                visualizations probe how superconducting phases organize the bound-state manifold.
+              </p>
+            </article>
+            <article class="card">
+              <span class="tag red">Measurement</span>
+              <h3>Which observables are experimentally accessible?</h3>
+              <p>
+                Tomography simulations compare finite-time phase-loop protocols against ideal Wilson plaquette
+                references while tracking leakage, dynamical phases, and reconstruction error.
+              </p>
+            </article>
+            <article class="card">
+              <span class="tag green">Transport</span>
+              <h3>How do signatures connect to devices?</h3>
+              <p>
+                Kwant transport prototypes provide a route from toy models toward scattering, transconductance,
+                and phase-sweep observables in multiterminal junction geometries.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" aria-labelledby="outputs-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <h2 id="outputs-title">Representative Outputs</h2>
+            <p>
+              These are placeholders drawn from current project outputs. Swap in your final public figures when ready.
+            </p>
+          </div>
+
+          <div class="grid three">
+            <article class="result">
+              <img src="assets/euler-curvature-reference.png" alt="Euler curvature reference map">
+              <div class="result-body">
+                <h3>Euler Curvature</h3>
+                <p>Reference curvature map for a target ABS subspace in the C2zT-invariant phase plane.</p>
+              </div>
+            </article>
+            <article class="result">
+              <img src="assets/wilson-spectrum.png" alt="Wilson spectrum over superconducting phase">
+              <div class="result-body">
+                <h3>Wilson Spectrum</h3>
+                <p>Phase-dependent Wilson-loop spectrum used to diagnose eigenphase winding and splitting.</p>
+              </div>
+            </article>
+            <article class="result">
+              <img src="assets/tomography-comparison.png" alt="Tomography comparison maps">
+              <div class="result-body">
+                <h3>Tomography</h3>
+                <p>Full-plane comparison between simulated tomography reconstruction and Wilson reference targets.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" aria-labelledby="methods-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <h2 id="methods-title">Methods Snapshot</h2>
+            <p>
+              A compact vocabulary for this page, useful for visitors who want the short technical map.
+            </p>
+          </div>
+
+          <div class="grid four">
+            <article class="note">
+              <h3>ABS Eigenproblem</h3>
+              <p>Phase-dependent Andreev matrices and positive-energy subspace tracking.</p>
+            </article>
+            <article class="note">
+              <h3>Wilson Loops</h3>
+              <p>Gauge-stable holonomies, eigenphase splittings, and plaquette curvature references.</p>
+            </article>
+            <article class="note">
+              <h3>Tomography</h3>
+              <p>Noiseless and finite-shot protocols for reconstructing two-level loop evolution.</p>
+            </article>
+            <article class="note">
+              <h3>Kwant Transport</h3>
+              <p>Prototype scattering calculations that connect phase-space structure to measurable response.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      MTJJ research summary. Edit technical scope, captions, and links before publishing.
+    </footer>
+  </body>
+</html>

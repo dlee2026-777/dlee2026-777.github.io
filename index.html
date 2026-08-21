@@ -1,33 +1,96 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Daniel Seungmin Lee</title>
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Name | Research Intro</title>
+    <meta name="description" content="Research introduction and project overview.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="index.html">Your Name</a>
+        <div class="nav-links">
+          <a href="index.html" aria-current="page">Intro</a>
+          <a href="mtjj.html">MTJJ</a>
+          <a href="junction-readout-chip-design.html">Junction Readout + Chip Design</a>
+        </div>
+      </nav>
+    </header>
 
-<body>
-    <h1>Daniel Seungmin Lee</h1>
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <p class="eyebrow">Research Portfolio</p>
+        <h1 id="page-title">Intro</h1>
+        <p class="lead">
+          This page is intentionally open for your own research statement, biography, collaboration notes,
+          and publication links.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="mtjj.html">MTJJ</a>
+          <a class="button" href="junction-readout-chip-design.html">Readout + Chip Design</a>
+        </div>
+      </section>
 
-    <p>Physics and Mathematics B.A.</p>
+      <section class="content-section" aria-labelledby="intro-draft-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <h2 id="intro-draft-title">Your Intro Draft</h2>
+            <p>
+              Replace this area with the introduction you want visitors to read first.
+            </p>
+          </div>
 
-    <h2>About Me</h2>
-    <p>
-        Hello! I'm a Junior studying physics and mathematics at the University of California, Berkeley. My research interests are in the intersection of condensed matter theory and superconducting
-        qubits. I'm currently conducting independent theoretical research on topological multiterminal Josephson junctions with the help of Dr. Junyeong Ahn at the University of Texas, Austin. I'm
-        also working on junction readout of mergemons in the Quantum Devices Group @ Berkeley.
-    </p>
+          <div class="draft-panel">
+            <h3>Write your intro here</h3>
+            <p>
+              Suggested shape: one paragraph on the physical systems you care about, one paragraph on the
+              questions driving the work, and a short note on the kinds of collaborations or opportunities
+              you are looking for.
+            </p>
+            <p>
+              You can also add links to publications, talks, a CV, GitHub repositories, or contact information.
+            </p>
+          </div>
+        </div>
+      </section>
 
-    <h2>Research</h2>
-    <p>
-        Add a short description of your research here.
-    </p>
+      <section class="content-section" aria-labelledby="site-map-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <h2 id="site-map-title">Site Map</h2>
+            <p>
+              Two focused pages summarize the research threads currently visible across your project folders.
+            </p>
+          </div>
 
-    <h2>CV</h2>
-    <p>
-        <a href="CV.pdf">View my CV</a>
-    </p>
+          <div class="grid two">
+            <article class="card">
+              <span class="tag">MTJJ</span>
+              <h3>Multiterminal Josephson Junctions</h3>
+              <p>
+                Andreev bound-state spectra, Wilson loops, Euler curvature, topology, tomography, and transport
+                simulations.
+              </p>
+              <p><a href="mtjj.html">Open MTJJ page</a></p>
+            </article>
 
-    <h2>Contact</h2>
-    <p>Email: dlee2026@berkeley.edu</p>
-</body>
+            <article class="card">
+              <span class="tag green">Readout</span>
+              <h3>Junction Readout + Chip Design</h3>
+              <p>
+                Microwave resonator design, Qiskit Metal tooling, GDS workflows, and chip-scale layout experiments.
+              </p>
+              <p><a href="junction-readout-chip-design.html">Open readout page</a></p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Last updated: August 2026. Replace placeholder name and links before publishing.
+    </footer>
+  </body>
 </html>
